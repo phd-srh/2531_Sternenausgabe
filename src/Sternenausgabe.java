@@ -8,6 +8,9 @@ public class Sternenausgabe {
 
         // TODO
         for (int zeile=1; zeile <= anzahlDerZeilen; zeile++) {
+            for (int leerzeichen=1; leerzeichen <= anzahlDerZeilen - zeile; leerzeichen++) {
+                System.out.print(" ");
+            }
             for (int spalte=1; spalte <= zeile; spalte++) {
                 System.out.print("* ");
             }
