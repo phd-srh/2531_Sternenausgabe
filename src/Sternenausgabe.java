@@ -7,5 +7,11 @@ public class Sternenausgabe {
         int anzahlDerZeilen = eingabe.nextInt();
 
         // TODO
+        for (int zeile=1; zeile <= anzahlDerZeilen; zeile++) {
+            for (int spalte=1; spalte <= zeile; spalte++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
